@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns:z="https://www.zerocracy.com">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <title>zerocracy</title>
+      <meta charset="UTF-8"/>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+      <link rel="icon"
+            href="https://www.zerocracy.com/svg/logo.svg"
+            type="image/svg"/>
+      <link href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css.min.css"
+            rel="stylesheet"/>
+      <link href="https://cdn.jsdelivr.net/gh/yegor256/drops@gh-pages/drops.min.css"
+            rel="stylesheet"/>
+      <script type="text/javascript"
+              src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+      <script type="text/javascript"
+              src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"> </script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"> </script>
+      <script type="text/javascript">function qo_render(canvas,data){const ctx=document.getElementById(canvas);new Chart(ctx,{type:"line",data:data,options:{responsive:false}})}</script>
+      <style>#awards tr.sub td{padding:0}#awards .sorter{cursor:pointer}#awards tbody tr:hover{background-color:#f5f5f5}#awards tr.p_{font-size:90%}#awards td.avatar{text-align:center;vertical-align:middle}#awards td.avatar img{height:1.5em;vertical-align:middle;width:1.5em}.policy{counter-reset:par}.policy .columns{column-count:5}.policy .columns p{display:inline-block}.policy .columns p::before{content:"R" counter(par) ": ";counter-increment:par}.policy .columns strong{color:#b8336a;font-family:monospace;font-weight:bolder}.policy .columns em{color:#1c448e;font-family:serif;font-weight:bolder}@media(max-width: 1280px){.policy .columns{column-count:4}}@media(max-width: 768px){.policy .columns{column-count:3}}.qo-section{width:40em}.qo-section canvas{width:100%}section{width:auto}footer{color:#282828;font-size:.8em;line-height:1.2em;text-align:center}article{border:0}header{text-align:center}header a:hover{text-decoration:none}header img{height:64px;vertical-align:middle}header span{background-color:#131515;border-radius:.2em;color:#fff;font-size:2em;font-weight:bolder;margin-left:1em;padding:0em .2em;vertical-align:middle}.ff{font-family:monospace}</style>
+   </head>
+   <body>
+      <section>
+         <header>
+            <p>
+               <a href="">
+                  <img alt="logo" src="https://www.zerocracy.com/svg/logo.svg"/>
+               </a>
+               <span>zerocracy</span>
+            </p>
+         </header>
+         <article>
+            <p class="darkred">No awards since 2024-07-02Z (28 days before today). Either, you are having no activity in the project or the reporting is not configured correctly.</p>
+            <p class="darkred">There is no information about the rules.</p>
+            <h2>Quality of Service (QoS)</h2>
+            <div class="qo-section">
+               <canvas id="quality-of-service"> </canvas>
+            </div>
+            <script type="text/javascript">$(function(){qo_render('quality-of-service',{labels:['7/30'],datasets:[{label:'average_backlog_size',data:[0]},{label:'average_build_success_rate',data:[0.0]},{label:'average_forks',data:[0]},{label:'average_issue_lifetime',data:[0.0]},{label:'average_pull_lifetime',data:[0.0]},{label:'average_release_interval',data:[0.0]},{label:'average_stars',data:[0]}]});});</script>
+            <h2>Quantity of Deliverables (QoD)</h2>
+            <div class="qo-section">
+               <canvas id="quantity-of-deliverables"> </canvas>
+            </div>
+            <script type="text/javascript">$(function(){qo_render('quantity-of-deliverables',{labels:['7/30'],datasets:[{label:'total_commits_pushed',data:[0]},{label:'total_hoc_committed',data:[0]},{label:'total_issues_created',data:[0]},{label:'total_pulls_submitted',data:[0]}]});});</script>
+            <h2>Dimensions of Terrain (DoT)</h2>
+            <table>
+               <colgroup>
+                  <col/>
+               </colgroup>
+               <colgroup span="4">
+                  <col style="width: 4em;"/>
+                  <col style="width: 4em;"/>
+                  <col style="width: 4em;"/>
+                  <col style="width: 4em;"/>
+               </colgroup>
+               <thead>
+                  <tr>
+                     <th>Dimension</th>
+                     <th class="right" title="Week #28 in 2024, starting on Monday 2024-07-08Z">w28</th>
+                     <th class="right" title="Week #29 in 2024, starting on Monday 2024-07-15Z">w29</th>
+                     <th class="right" title="Week #30 in 2024, starting on Monday 2024-07-22Z">w30</th>
+                     <th class="right" title="Week #31 in 2024, starting on Monday 2024-07-29Z">w31</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td class="ff">_id</td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right">1</td>
+                  </tr>
+                  <tr>
+                     <td class="ff">_time</td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right">2024-07-30T08:19:30Z</td>
+                  </tr>
+                  <tr>
+                     <td class="ff">_version</td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right">0.2.1/0.21.0/0.0.39</td>
+                  </tr>
+                  <tr>
+                     <td class="ff">total_forks</td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right">10</td>
+                  </tr>
+                  <tr>
+                     <td class="ff">total_releases</td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right">230</td>
+                  </tr>
+                  <tr>
+                     <td class="ff">total_repositories</td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right">6</td>
+                  </tr>
+                  <tr>
+                     <td class="ff">total_stars</td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right"> </td>
+                     <td class="ff right">27</td>
+                  </tr>
+               </tbody>
+            </table>
+         </article>
+         <footer>
+            <p>The value of "today" is 2024-07-30T08:36:09Z.<br/>The page was generated by the <a href="https://github.com/zerocracy/pages-action">pages-action</a> plugin (0.0.30) on 2024-07-30T08:36:10.894Z.<br/>
+               <a href="https://github.com/yegor256/factbase">Factbase</a>: 942 facts, 363713 bytes, version 0.2.1; <a href="https://github.com/zerocracy/fbe">Fbe</a>: 0.0.34.<br/>The XML with all the data <a href="zerocracy.xml">is here</a>, HTML <a href="zerocracy.html">is here</a>.</p>
+            <p>Made by <a href="https://www.zerocracy.com">Zerocracy</a>.</p>
+         </footer>
+      </section>
+   </body>
+</html>
