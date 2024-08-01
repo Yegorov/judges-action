@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html
   SYSTEM "about:legacy-compat">
-<html xmlns:z="https://www.zerocracy.com">
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:z="https://www.zerocracy.com">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <title>zerocracy</title>
@@ -19,6 +19,8 @@
       <script type="text/javascript"
               src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"> </script>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"> </script>
+      <script type="text/javascript"
+              src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"> </script>
       <script type="text/javascript">function qo_render(canvas,data){const ctx=document.getElementById(canvas);new Chart(ctx,{type:"line",data:data,options:{responsive:false}})}</script>
       <style>#awards tr.sub td{padding:0}#awards .sorter{cursor:pointer}#awards tbody tr:hover{background-color:#f5f5f5}#awards tr.p_{font-size:90%}#awards td.avatar{text-align:center;vertical-align:middle}#awards td.avatar img{height:1.5em;vertical-align:middle;width:1.5em}.policy{counter-reset:par}.policy .columns{column-count:5}.policy .columns p{display:inline-block}.policy .columns p::before{content:"R" counter(par) ": ";counter-increment:par}.policy .columns strong{color:#b8336a;font-family:monospace;font-weight:bolder}.policy .columns em{color:#1c448e;font-family:serif;font-weight:bolder}@media(max-width: 1280px){.policy .columns{column-count:4}}@media(max-width: 768px){.policy .columns{column-count:3}}.qo-section{width:40em}.qo-section canvas{width:100%}section{width:auto}footer{color:#282828;font-size:.8em;line-height:1.2em;text-align:center}article{border:0}header{text-align:center}header a:hover{text-decoration:none}header img{height:64px;vertical-align:middle}header span{background-color:#131515;border-radius:.2em;color:#fff;font-size:2em;font-weight:bolder;margin-left:1em;padding:0em .2em;vertical-align:middle}.ff{font-family:monospace}</style>
    </head>
@@ -39,12 +41,12 @@
             <div class="qo-section">
                <canvas id="quality-of-service"> </canvas>
             </div>
-            <script type="text/javascript">$(function(){qo_render('quality-of-service',{labels:['8/1'],datasets:[{label:'average_backlog_size',data:[0]},{label:'average_build_success_rate',data:[0.0]},{label:'average_forks',data:[0]},{label:'average_issue_lifetime',data:[0.0]},{label:'average_pull_lifetime',data:[0.0]},{label:'average_release_interval',data:[0.0]},{label:'average_stars',data:[0]}]});});</script>
+            <script type="text/javascript">$(function(){const color = chroma('#D3D3D3'); qo_render('quality-of-service',{labels:['8/1'],datasets:[{label:'average_backlog_size',borderColor:color.darken(0.4).hex(),borderWidth:1,data:[0.0]},{label:'average_build_success_rate',borderColor:color.darken(0.8).hex(),borderWidth:1,data:[0.0]},{label:'average_forks',borderColor:color.darken(1.2).hex(),borderWidth:1,data:[0.0]},{label:'average_issue_lifetime',borderColor:color.darken(1.6).hex(),borderWidth:1,data:[0.0]},{label:'average_pull_lifetime',borderColor:color.darken(2).hex(),borderWidth:1,data:[0.0]},{label:'average_release_interval',borderColor:color.darken(2.4).hex(),borderWidth:1,data:[0.0]},{label:'average_stars',borderColor:color.darken(2.8).hex(),borderWidth:1,data:[0.0]}]});});</script>
             <h2>Quantity of Deliverables (QoD)</h2>
             <div class="qo-section">
                <canvas id="quantity-of-deliverables"> </canvas>
             </div>
-            <script type="text/javascript">$(function(){qo_render('quantity-of-deliverables',{labels:['8/1'],datasets:[{label:'total_commits_pushed',data:[0]},{label:'total_hoc_committed',data:[0]},{label:'total_issues_created',data:[0]},{label:'total_pulls_submitted',data:[0]}]});});</script>
+            <script type="text/javascript">$(function(){const color = chroma('#D3D3D3'); qo_render('quantity-of-deliverables',{labels:['8/1'],datasets:[{label:'total_commits_pushed',borderColor:color.darken(0.4).hex(),borderWidth:1,data:[0.0]},{label:'total_hoc_committed',borderColor:color.darken(0.8).hex(),borderWidth:1,data:[0.0]},{label:'total_issues_created',borderColor:color.darken(1.2).hex(),borderWidth:1,data:[0.0]},{label:'total_pulls_submitted',borderColor:color.darken(1.6).hex(),borderWidth:1,data:[0.0]}]});});</script>
             <h2>Dimensions of Terrain (DoT)</h2>
             <table>
                <colgroup>
@@ -66,27 +68,6 @@
                   </tr>
                </thead>
                <tbody>
-                  <tr>
-                     <td class="ff">_id</td>
-                     <td class="ff right"> </td>
-                     <td class="ff right"> </td>
-                     <td class="ff right"> </td>
-                     <td class="ff right">1</td>
-                  </tr>
-                  <tr>
-                     <td class="ff">_time</td>
-                     <td class="ff right"> </td>
-                     <td class="ff right"> </td>
-                     <td class="ff right"> </td>
-                     <td class="ff right">2024-08-01T19:11:51Z</td>
-                  </tr>
-                  <tr>
-                     <td class="ff">_version</td>
-                     <td class="ff right"> </td>
-                     <td class="ff right"> </td>
-                     <td class="ff right"> </td>
-                     <td class="ff right">0.2.1/0.21.0/0.0.39</td>
-                  </tr>
                   <tr>
                      <td class="ff">total_forks</td>
                      <td class="ff right"> </td>
@@ -119,8 +100,8 @@
             </table>
          </article>
          <footer>
-            <p>The value of "today" is 2024-08-01T19:24:01Z.<br/>The page was generated by the <a href="https://github.com/zerocracy/pages-action">pages-action</a> plugin (0.0.30) on 2024-08-01T19:24:02.653Z.<br/>
-               <a href="https://github.com/yegor256/factbase">Factbase</a>: 909 facts, 348763 bytes, version 0.2.1; <a href="https://github.com/zerocracy/fbe">Fbe</a>: 0.0.34.<br/>The XML with all the data <a href="zerocracy.xml">is here</a>, HTML <a href="zerocracy.html">is here</a>.</p>
+            <p>The value of <span class="ff">today</span> is 2024-08-01T20:28:36Z.<br/>The page was generated by the <a href="https://github.com/zerocracy/pages-action">pages-action</a> plugin (<span style="">0.0.32</span>) on 2024-08-01T20:28:37.113Z.<br/>
+               <a href="https://github.com/yegor256/factbase">Factbase</a>: 908 facts, <span title="349557 bytes">341kB</span>, version 0.2.1; <a href="https://github.com/zerocracy/fbe">Fbe</a>: 0.0.35.<br/>The XML with all the data <a href="zerocracy.xml">is here</a>, HTML <a href="zerocracy.html">is here</a>.</p>
             <p>Made by <a href="https://www.zerocracy.com">Zerocracy</a>.</p>
          </footer>
       </section>
