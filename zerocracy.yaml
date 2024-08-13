@@ -4,99 +4,96 @@
   error:
   - 'GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate
     limit exceeded for site ID installation. If you reach out to GitHub Support for
-    help, please include the request ID 0C40:B9AF8:9F42:131FA:66BB32E9 and timestamp
-    2024-08-13 10:18:17 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+    help, please include the request ID 7B40:2D7D8A:1821C31:184DD93:66BB3FEE and timestamp
+    2024-08-13 11:13:50 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
   - 'GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate
     limit exceeded for site ID installation. If you reach out to GitHub Support for
-    help, please include the request ID 0C40:B9AF8:14DB6:286FD:66BB3326 and timestamp
-    2024-08-13 10:19:18 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
-  - 'GET https://api.github.com/repos/zerocracy/baza/commits/7f2ebcbdd90428da59cef639deb5d009c46de4ba:
-    403 - API rate limit exceeded for site ID installation. If you reach out to GitHub
-    Support for help, please include the request ID 0C40:78697:EA4EB:1CA559:66BB37B5
-    and timestamp 2024-08-13 10:38:45 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+    help, please include the request ID 7B40:2D7D8A:1832070:185E35B:66BB402B and timestamp
+    2024-08-13 11:14:51 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
   - 'GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate
     limit exceeded for site ID installation. If you reach out to GitHub Support for
-    help, please include the request ID 0C40:78697:F55A2:1DFFCC:66BB37F2 and timestamp
-    2024-08-13 10:39:46 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+    help, please include the request ID 7B40:2D7D8A:18427F3:186ECF6:66BB4068 and timestamp
+    2024-08-13 11:15:52 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
   - 'GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate
     limit exceeded for site ID installation. If you reach out to GitHub Support for
-    help, please include the request ID 0C40:78697:101B0A:1F8280:66BB382E and timestamp
-    2024-08-13 10:40:46 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+    help, please include the request ID 7B40:2D7D8A:18533A4:187FA8D:66BB40A4 and timestamp
+    2024-08-13 11:16:53 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+  - 'GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate
+    limit exceeded for site ID installation. If you reach out to GitHub Support for
+    help, please include the request ID 7B40:2D7D8A:18636D7:188FF55:66BB40E1 and timestamp
+    2024-08-13 11:17:53 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+  - 'GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate
+    limit exceeded for site ID installation. If you reach out to GitHub Support for
+    help, please include the request ID 7B40:2D7D8A:18739BD:18A045D:66BB411E and timestamp
+    2024-08-13 11:18:54 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
   removed: 8
-  seconds: 1409.703490518
+  seconds: 428.514903264
   version: 0.25.0
   what: judges-summary
-  when: 2024-08-13 10:40:46.703271967 Z
+  when: 2024-08-13 11:19:57.890428964 Z
 - _id: 1
-  _time: 2024-08-13 10:17:17.191294678 Z
+  _time: 2024-08-13 11:12:49.566323318 Z
   _version: 0.4.0/0.25.0/
   what: dimensions-of-terrain
-  when: 2024-08-13 10:17:17.191511896 Z
+  when: 2024-08-13 11:12:49.566533460 Z
 - _id: 2
-  _time: 2024-08-13 10:19:48.579712084 Z
+  _time: 2024-08-13 11:15:52.224350361 Z
+  _version: 0.4.0/0.25.0/
+  since: 2024-07-16 11:15:52.224618411 Z
+  what: quality-of-service
+  when: 2024-08-13 11:15:52.224531659 Z
+- _id: 3
+  _time: 2024-08-13 11:16:53.097838117 Z
+  _version: 0.4.0/0.25.0/
+  since: 2024-07-16 11:16:53.098367325 Z
+  what: quantity-of-deliverables
+  when: 2024-08-13 11:16:53.098218908 Z
+- _id: 4
+  _time: 2024-08-13 11:19:57.863683317 Z
   _version: 0.4.0/0.25.0/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 3
-  _time: 2024-08-13 10:19:48.585307835 Z
+- _id: 5
+  _time: 2024-08-13 11:19:57.867428317 Z
   _version: 0.4.0/0.25.0/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 4
-  _time: 2024-08-13 10:19:48.589356080 Z
+- _id: 6
+  _time: 2024-08-13 11:19:57.871404817 Z
   _version: 0.4.0/0.25.0/
   latest: 0
   repository: 728758275
   what: labels-were-scanned
   where: github
-- _id: 5
-  _time: 2024-08-13 10:19:48.593366596 Z
+- _id: 7
+  _time: 2024-08-13 11:19:57.874814464 Z
   _version: 0.4.0/0.25.0/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 6
-  _time: 2024-08-13 10:19:48.596926363 Z
+- _id: 8
+  _time: 2024-08-13 11:19:57.878100579 Z
   _version: 0.4.0/0.25.0/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 7
-  _time: 2024-08-13 10:19:48.600096315 Z
+- _id: 9
+  _time: 2024-08-13 11:19:57.881668718 Z
   _version: 0.4.0/0.25.0/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 8
-  _time: 2024-08-13 10:19:48.603445857 Z
+- _id: 10
+  _time: 2024-08-13 11:19:57.885250544 Z
   _version: 0.4.0/0.25.0/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 9
-  _time: 2024-08-13 10:19:48.606321148 Z
-  _version: 0.4.0/0.25.0/
-  average_backlog_size: 12
-  average_build_duration: 53.1303800125971
-  average_build_success_rate: 0.9525509132899433
-  average_issue_lifetime: 143360.60747663552
-  average_pull_lifetime: 28898.245989304814
-  average_pull_rejection_rate: 0.08021390374331551
-  average_release_interval: 29617.197530864196
-  since: 2024-07-16 10:19:48.606530722 Z
-  what: quality-of-service
-  when: 2024-08-13 10:19:48.606441824 Z
-- _id: 10
-  _time: 2024-08-13 10:37:06.771972730 Z
-  _version: 0.4.0/0.25.0/
-  since: 2024-07-16 10:37:06.772214314 Z
-  what: quantity-of-deliverables
-  when: 2024-08-13 10:37:06.772130657 Z
