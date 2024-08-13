@@ -1,106 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.2.1" size="3662">
+<fb version="0.2.1" size="3249">
   <f>
     <added t="I">8</added>
     <cycles t="I">2</cycles>
     <error>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7B40:2D7D8A:1821C31:184DD93:66BB3FEE and timestamp 2024-08-13 11:13:50 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7B40:2D7D8A:1832070:185E35B:66BB402B and timestamp 2024-08-13 11:14:51 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7B40:2D7D8A:18427F3:186ECF6:66BB4068 and timestamp 2024-08-13 11:15:52 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7B40:2D7D8A:18533A4:187FA8D:66BB40A4 and timestamp 2024-08-13 11:16:53 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7B40:2D7D8A:18636D7:188FF55:66BB40E1 and timestamp 2024-08-13 11:17:53 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7B40:2D7D8A:18739BD:18A045D:66BB411E and timestamp 2024-08-13 11:18:54 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 0440:180369:13D7C6:23CDA6:66BB5D8B and timestamp 2024-08-13 13:20:11 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 0440:1117DA:969814:1231993:66BB5DC8 and timestamp 2024-08-13 13:21:12 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 0440:180369:15CADF:279273:66BB5E04 and timestamp 2024-08-13 13:22:12 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 0440:1CE355:9D10A0:1300E5B:66BB5E40 and timestamp 2024-08-13 13:23:12 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 0440:1CE355:9E09DC:131EFFD:66BB5E7D and timestamp 2024-08-13 13:24:13 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 0440:180369:189B16:2D03CF:66BB5EB9 and timestamp 2024-08-13 13:25:13 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 0440:1CE355:A00DC6:135D534:66BB5EF5 and timestamp 2024-08-13 13:26:14 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
     </error>
     <removed t="I">8</removed>
-    <seconds t="F">428.514903264</seconds>
+    <seconds t="F">422.807718068</seconds>
     <version t="S">0.25.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-13T11:19:57Z</when>
+    <when t="T">2024-08-13T13:26:14Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
-    <_time t="T">2024-08-13T11:12:49Z</_time>
+    <_time t="T">2024-08-13T13:19:11Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <what t="S">dimensions-of-terrain</what>
-    <when t="T">2024-08-13T11:12:49Z</when>
+    <when t="T">2024-08-13T13:19:11Z</when>
   </f>
   <f>
     <_id t="I">2</_id>
-    <_time t="T">2024-08-13T11:15:52Z</_time>
+    <_time t="T">2024-08-13T13:22:12Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
-    <since t="T">2024-07-16T11:15:52Z</since>
+    <since t="T">2024-07-16T13:22:12Z</since>
     <what t="S">quality-of-service</what>
-    <when t="T">2024-08-13T11:15:52Z</when>
+    <when t="T">2024-08-13T13:22:12Z</when>
   </f>
   <f>
     <_id t="I">3</_id>
-    <_time t="T">2024-08-13T11:16:53Z</_time>
+    <_time t="T">2024-08-13T13:23:12Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
-    <since t="T">2024-07-16T11:16:53Z</since>
+    <since t="T">2024-07-16T13:23:12Z</since>
     <what t="S">quantity-of-deliverables</what>
-    <when t="T">2024-08-13T11:16:53Z</when>
-  </f>
-  <f>
-    <_id t="I">4</_id>
-    <_time t="T">2024-08-13T11:19:57Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">5</_id>
-    <_time t="T">2024-08-13T11:19:57Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">798641472</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">6</_id>
-    <_time t="T">2024-08-13T11:19:57Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">728758275</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">7</_id>
-    <_time t="T">2024-08-13T11:19:57Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">840215648</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">8</_id>
-    <_time t="T">2024-08-13T11:19:57Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">820463873</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">9</_id>
-    <_time t="T">2024-08-13T11:19:57Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">10</_id>
-    <_time t="T">2024-08-13T11:19:57Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">802720676</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
+    <when t="T">2024-08-13T13:23:12Z</when>
   </f>
 </fb>
