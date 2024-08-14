@@ -1,31 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.2.1" size="3677">
+<fb version="0.2.1" size="3646">
   <f>
     <added t="I">8</added>
     <cycles t="I">2</cycles>
     <error>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7600:393885:1FC8FB8:3B906F3:66BC3DA6 and timestamp 2024-08-14 05:16:23 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7600:193A0:67E1E3:C28C52:66BC3DE3 and timestamp 2024-08-14 05:17:23 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/repos/zerocracy/baza/commits/b899b329b0455cd4e299cc203005cfa1d7d3930f: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7600:193A0:78C3E9:E2EC9F:66BC42EB and timestamp 2024-08-14 05:38:51 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7600:193A0:798A62:E46758:66BC4328 and timestamp 2024-08-14 05:39:52 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
-      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID 7600:193A0:7A5070:E5E30E:66BC4364 and timestamp 2024-08-14 05:40:52 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID C380:2E6573:19C4BD8:3060E67:66BC5988 and timestamp 2024-08-14 07:15:20 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID C380:73FC3:5F53B:BA1AE:66BC59C4 and timestamp 2024-08-14 07:16:20 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID C380:2E6573:19DEB1A:3093D5C:66BC5A01 and timestamp 2024-08-14 07:17:21 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID C380:2E6573:19EBD15:30ADB1B:66BC5A3E and timestamp 2024-08-14 07:18:22 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID C380:73FC3:85534:104A33:66BC5A7A and timestamp 2024-08-14 07:19:22 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
+      <v t="S">GET https://api.github.com/users/zerocracy/repos?per_page=100: 403 - API rate limit exceeded for site ID installation. If you reach out to GitHub Support for help, please include the request ID C380:73FC3:91842:11CA0E:66BC5AB7 and timestamp 2024-08-14 07:20:23 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api</v>
     </error>
     <removed t="I">8</removed>
-    <seconds t="F">1530.619289483</seconds>
+    <seconds t="F">426.74998453</seconds>
     <version t="S">0.25.0</version>
     <what t="S">judges-summary</what>
-    <when t="T">2024-08-14T05:40:52Z</when>
+    <when t="T">2024-08-14T07:21:26Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
-    <_time t="T">2024-08-14T05:15:22Z</_time>
+    <_time t="T">2024-08-14T07:14:19Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <what t="S">dimensions-of-terrain</what>
-    <when t="T">2024-08-14T05:15:22Z</when>
+    <when t="T">2024-08-14T07:14:19Z</when>
   </f>
   <f>
     <_id t="I">2</_id>
-    <_time t="T">2024-08-14T05:18:26Z</_time>
+    <_time t="T">2024-08-14T07:17:21Z</_time>
+    <_version t="S">0.4.0/0.25.0/</_version>
+    <since t="T">2024-07-17T07:17:21Z</since>
+    <what t="S">quality-of-service</what>
+    <when t="T">2024-08-14T07:17:21Z</when>
+  </f>
+  <f>
+    <_id t="I">3</_id>
+    <_time t="T">2024-08-14T07:18:22Z</_time>
+    <_version t="S">0.4.0/0.25.0/</_version>
+    <since t="T">2024-07-17T07:18:22Z</since>
+    <what t="S">quantity-of-deliverables</what>
+    <when t="T">2024-08-14T07:18:22Z</when>
+  </f>
+  <f>
+    <_id t="I">4</_id>
+    <_time t="T">2024-08-14T07:21:26Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">799113787</repository>
@@ -33,8 +50,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">3</_id>
-    <_time t="T">2024-08-14T05:18:26Z</_time>
+    <_id t="I">5</_id>
+    <_time t="T">2024-08-14T07:21:26Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">798641472</repository>
@@ -42,8 +59,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">4</_id>
-    <_time t="T">2024-08-14T05:18:26Z</_time>
+    <_id t="I">6</_id>
+    <_time t="T">2024-08-14T07:21:26Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">728758275</repository>
@@ -51,8 +68,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">5</_id>
-    <_time t="T">2024-08-14T05:18:26Z</_time>
+    <_id t="I">7</_id>
+    <_time t="T">2024-08-14T07:21:26Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">840215648</repository>
@@ -60,8 +77,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">6</_id>
-    <_time t="T">2024-08-14T05:18:26Z</_time>
+    <_id t="I">8</_id>
+    <_time t="T">2024-08-14T07:21:26Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">820463873</repository>
@@ -69,8 +86,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">7</_id>
-    <_time t="T">2024-08-14T05:18:26Z</_time>
+    <_id t="I">9</_id>
+    <_time t="T">2024-08-14T07:21:26Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">799177290</repository>
@@ -78,35 +95,12 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">8</_id>
-    <_time t="T">2024-08-14T05:18:26Z</_time>
+    <_id t="I">10</_id>
+    <_time t="T">2024-08-14T07:21:26Z</_time>
     <_version t="S">0.4.0/0.25.0/</_version>
     <latest t="I">0</latest>
     <repository t="I">802720676</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">9</_id>
-    <_time t="T">2024-08-14T05:18:26Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <average_backlog_size t="I">12</average_backlog_size>
-    <average_build_duration t="F">52.48389189189189</average_build_duration>
-    <average_build_success_rate t="F">0.9468108108108109</average_build_success_rate>
-    <average_issue_lifetime t="F">148426.9150943396</average_issue_lifetime>
-    <average_pull_lifetime t="F">26950.597883597882</average_pull_lifetime>
-    <average_pull_rejection_rate t="F">0.08994708994708994</average_pull_rejection_rate>
-    <average_release_interval t="F">28884.170731707316</average_release_interval>
-    <since t="T">2024-07-17T05:18:26Z</since>
-    <what t="S">quality-of-service</what>
-    <when t="T">2024-08-14T05:18:26Z</when>
-  </f>
-  <f>
-    <_id t="I">10</_id>
-    <_time t="T">2024-08-14T05:36:30Z</_time>
-    <_version t="S">0.4.0/0.25.0/</_version>
-    <since t="T">2024-07-17T05:36:30Z</since>
-    <what t="S">quantity-of-deliverables</what>
-    <when t="T">2024-08-14T05:36:30Z</when>
   </f>
 </fb>
